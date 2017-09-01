@@ -1,0 +1,6 @@
+Protocal.lua 增加协议  下标即是消息id 字符串是消息名
+有请求/响应 两种消息
+
+protocal  增加 消息名_Request 对象    消息名_Response 对象
+
+handler增加对应  消息名.lua   function On_消息名( idx,request) 
